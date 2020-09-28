@@ -3,12 +3,11 @@ import ReactDOM from "react-dom";
 import "tachyons";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import { robots } from "./robots";
-import { CardList } from "./CardList";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList cardList={robots} />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

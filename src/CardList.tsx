@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { CardProps, Card } from "./Card";
+import { Props as CardProps, Card } from "./Card";
 
 type Props = {
   cardList: CardProps[];
