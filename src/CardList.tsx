@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Props as CardProps, Card } from "./Card";
 
-type Props = {
+export type Props = {
   cardList: CardProps[];
 };
 
